@@ -1,7 +1,8 @@
 from aiogram.utils import executor
-from home_everywhere.bot import *
+from bot import *
 from config import WEBHOOK_PATH
 from config import WEBAPP_PORT
+from config import WEBAPP_HOST
 
 #executor.start_polling(bot.dp,
 #                       skip_updates=True,
