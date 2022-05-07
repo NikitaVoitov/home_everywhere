@@ -1,5 +1,5 @@
 from aiogram.utils import executor
-import bot
+from home_everywhere.bot import *
 from config import WEBHOOK_PATH
 from config import WEBAPP_PORT
 
